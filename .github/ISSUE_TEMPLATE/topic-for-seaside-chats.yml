@@ -1,0 +1,76 @@
+name: Seaside chat topic
+description: To propose new topics for seaside chats
+title: "[2024-00-00]: "
+labels: ["status: triage_needed", "kind: topic"]
+assignees:
+  - kellijohnson-NOAA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this issue and submitting a topic! By submitting this issue, you agree to follow our [Code of Conduct](https://noaa-fims.github.io/collaborative_workflow/code-of-conduct.html#code-of-conduct).
+
+        ---
+
+        Before filling out this report please ensure that you have searched the
+        existing issues that have not been completed to see if this topic is
+        already present.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Who will lead the topic?
+      multiple: true
+      options:
+        - Andrea-Havron-NOAA
+        - Bai-Li-NOAA
+        - ChristineStawitz-NOAA
+        - cmlegault
+        - Cole-Monnahan-NOAA
+        - Huihualee-NOAA
+        - iantaylor-NOAA
+        - JaneSullivan-NOAA
+        - JonBrodziak
+        - k-doering-NOAA
+        - kellijohnson-NOAA
+        - KyleShertzer-NOAA
+        - MOshima-PIFSC
+        - msupernaw
+        - nathanvaughan-NOAA
+        - peterkuriyama-NOAA
+        - timjmiller
+    validations: 
+      required: false
+  - type: textarea
+    id: describe
+    attributes:
+      label: Topic description
+      description: Describe the topic that you would like to propose
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Topic background
+      description: Give some background on why this should be a topic
+    validations:
+      required: false
+  - type: textarea
+    id: outline
+    attributes:
+      label: Topic outline
+      description: Outline the discussion of the proposed topic
+      value: |
+        *
+        *
+    validations:
+      required: false
+  - type: textarea
+    id: resources
+    attributes:
+      label: Topic resources
+      description: List additional relevant resources
+      value: |
+        *
+        *
+    validations:
+      required: false
