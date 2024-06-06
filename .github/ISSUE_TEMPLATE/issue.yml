@@ -1,0 +1,16 @@
+name: Code or organizational issue
+description: An issue related to the code or the organization of this repository
+assignees: kellijohnson-NOAA
+labels: ["status: triage_needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! By submitting this issue, you agree to follow our [Code of Conduct](https://noaa-fims.github.io/collaborative_workflow/code-of-conduct.html#code-of-conduct).
+  - type: textarea
+    id: describe
+    attributes:
+      label: Issue details
+      description: Describe the issue
+    validations:
+      required: true
